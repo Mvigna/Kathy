@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frequently Asked Questions | Kathy Jo Pollack</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --accent: #e07a5f;
+      --dark: #3d405b;
+      --light: #f4f1de;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
+      overflow-x: hidden;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--light);
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: var(--dark);
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--dark);
+      font-weight: 600;
+      position: relative;
+    }
+    nav a::after {
+      content: '';
+      display: block;
+      height: 2px;
+      background: var(--accent);
+      width: 0;
+      transition: width 0.3s;
+      margin-top: 0.3rem;
+    }
+    nav a:hover::after {
+      width: 100%;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f1de;
+      color: #3d405b;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: #e07a5f;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .faq {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .faq-item {
+      background: white;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .faq-question {
+      padding: 1rem 1.5rem;
+      cursor: pointer;
+      font-weight: bold;
+      position: relative;
+      color: #3d405b;
+      background: #fff;
+    }
+
+    .faq-question::after {
+      content: '+';
+      position: absolute;
+      right: 1.5rem;
+      font-size: 1.5rem;
+    }
+
+    .faq-question.active::after {
+      content: '-';
+    }
+
+    .faq-answer {
+      padding: 0 1.5rem 1.5rem;
+      display: none;
+      white-space: pre-wrap;
+    }
+
+    .faq-answer.show {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <body>
+    <header>
+      <h1>Kathy Jo Pollack</h1>
+      <p>Certified Life Coach | Motivational Speaker | Trainer</p>
+    </header>
+  
+    <nav>
+      <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services-fees.html">Services & Fees</a>
+    <a href="links.html">Resources</a>
+    <a href="index.html#seminar-testimonials">Testimonials</a>
+    <a href="faq.html">FAQs</a>
+    <a href="contact.html">Contact</a>
+    </nav>
+  <h1>Frequently Asked Questions</h1>
+  <div class="faq">
+    <div class="faq-item">
+      <div class="faq-question">How can I experience coaching and start making changes in my life?</div>
+      <div class="faq-answer">If you are serious about moving forward, I offer a limited number of complimentary consultations (only ten each month). Contact me now to schedule this special offering. We can then discuss how I can assist you in your wonderful journey to personal fulfillment!</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Is coaching counseling or therapy?</div>
+      <div class="faq-answer">No, coaching is not counseling or therapy. Counseling and therapy focus on the past and work toward healing and recovery. Coaching focuses on the present and creates the future.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Are you a financial planner?</div>
+      <div class="faq-answer">No, I am a life coach whose focus is the basics - the fundamentals that are forgotten or never learned - budgeting, goal setting, prioritizing, and building good credit. I help my clients to build a strong financial foundation that will strengthen their money management skills.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Can you help me pay my bills?</div>
+      <div class="faq-answer">No, I am not a credit counselor nor do I offer a debt repayment program. I work with people who have the means to pay their bills and want to gain control of their finances, build confidence, and strengthen their financial position.
+
+If you are having difficulty paying your bills, I suggest you visit www.nfcc.org (The National Foundation for Credit Counseling) to locate a credit counselor near you.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">What can you help me with?</div>
+      <div class="faq-answer">Finances
+- Gain control & confidence in your financial life
+- Achieve your financial goals
+- Balance your budget
+- Build and maintain a good credit history
+
+Life & Relationships
+- Rest & Reflect
+- Goal setting
+- Work-Life balance
+- Be the "chooser", not wait to be "chosen"
+- Clarify wants & needs
+- Develop a "relationship plan"
+- Build confidence
+
+Personal & Professional Development
+- DISC Personality Assessment
+- Success Skills
+- Emotional Intelligence
+- Build your self confidence
+- Improve communication and influence
+- Expand network (powerbase)
+- Business etiquette</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">What does etiquette have to do with it?</div>
+      <div class="faq-answer">Etiquette has everything to do with it! Good or bad, etiquette sets you apart whether it be in a social or business setting. Knowing the rules of etiquette is absolutely vital for each person who wishes to advance personally and professionally. How we speak to people, including our body language and social graces, is crucial to how we are perceived. If you lack self-confidence in this area, I can help! If you don't know the rules of business etiquette, I can work with you.
+
+Your technical skills may be top-notch, but are your manners? To quote John Rockefeller, "I will pay more for the ability to get along with people than for any other ability."</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">What are the ethical standards of coaching?</div>
+      <div class="faq-answer">As a member of the International Coach Federation (ICF), I practice and endorse the ICF Code of Ethics.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">What services do you provide?</div>
+      <div class="faq-answer">Individual coaching sessions & packages
+Gift certificates available
+Etiquette: business, personal, and dining
+Seminars/Workshops/Teleclasses/Professional & Keynote Speaking
+
+Topics Include:
+- Get on Track with Your Finances
+- The Basics of Budgeting
+- The Importance of Good Credit
+- Healthy Finances 4 Couples
+- Identity Theft
+- Stress Less
+- Relationship Success for Singles
+- Balance - The Wheel of Life
+- Business Etiquette
+- R-E-S-P-E-C-T
+- Be the Chooser
+- Build Your Self Confidence
+- Emotional Intelligence
+- A DAY of Personal & Professional Development</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">What are your fees?</div>
+      <div class="faq-answer">Coaching sessions:
+- 90-min POWER PLUS: $225
+- POWER PLUS w/ Confidence Report: $250
+- DISC Assessment + Session: $275
+- 60-min POWER HOUR: $150
+- 30-min session: $100
+
+Coaching Packages:
+- THE WORKS PLUS!: $550
+- THE WORKS: $400
+- Two 90-min: $400
+- Four 90-min: $750
+- Three 60-min: $400
+- Six 60-min: $750
+- Three 30-min: $275
+- Six 15-min: $275
+
+Includes Zoom/Phone sessions, email support, and refer-a-friend perks.
+Speaking/Seminars: Fees vary. Contact me.
+Teleclasses/Webinars: Fees vary, many are free.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">What is my next step?</div>
+      <div class="faq-answer">Contact me now to schedule your personal complimentary consultation. Only a limited number of consultations are scheduled each month.
+
+I encourage you to talk with me to see if we can work together to help you be your best.</div>
+    </div>
+  </div>
+  <script>
+    const questions = document.querySelectorAll('.faq-question');
+    questions.forEach(q => {
+      q.addEventListener('click', () => {
+        q.classList.toggle('active');
+        const answer = q.nextElementSibling;
+        answer.classList.toggle('show');
+      });
+    });
+  </script>
+</body>
+</html>
